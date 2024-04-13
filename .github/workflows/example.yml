@@ -14,9 +14,9 @@ jobs:
         uses: ./
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 468cce80dfb431f3a4058e6dc6031a44
+          accountId: 96f2fde5b6ccfc46920c02e2f787181e
           projectName: github-actions-example
-          directory: example
+          directory: devillerden
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
         id: publish
       - name: Outputs
